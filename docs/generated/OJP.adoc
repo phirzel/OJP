@@ -255,6 +255,35 @@ The element contains a _sequence_ of the following elements:
 | `siri:Extensions` | 0:1  
 |===
 
+=== The toplevel element `OJPAvailabilityRequest`
+`OJPAvailabilityRequest` | _OJPAvailabilityRequestStructure_ | 
+
+
+=== The complex type `OJPAvailabilityRequestStructure`
+
+
+The element contains a _sequence_ of the following elements:
+
+|===
+| `AvailabilityRequestGroup` | 1:1 
+| `siri:Extensions` | 0:1  
+|===
+
+=== The toplevel element `OJPAvailabilityDelivery`
+`OJPAvailabilityDelivery` | _OJPAvailabilityDeliveryStructure_ | 
+
+
+=== The complex type `OJPAvailabilityDeliveryStructure`
+
+
+The element contains a _sequence_ of the following elements:
+
+|===
+| `ServiceResponseContextGroup` | 1:1 
+| `AvailabilityResponseGroup` | 1:1 
+| `siri:Extensions` | 0:1  
+|===
+
 == OJP/OJP_RequestSupport.xsd - Supporting definitions for OJP service requests and their responses
 
 === Simple type definitions

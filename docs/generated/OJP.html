@@ -462,6 +462,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_the_complex_type_code_ojpmultipointtriprequeststructure_code">The complex type <code>OJPMultiPointTripRequestStructure</code></a></li>
 <li><a href="#_the_toplevel_element_code_ojpmultipointtripdelivery_code">The toplevel element <code>OJPMultiPointTripDelivery</code></a></li>
 <li><a href="#_the_complex_type_code_ojpmultipointtripdeliverystructure_code">The complex type <code>OJPMultiPointTripDeliveryStructure</code></a></li>
+<li><a href="#_the_toplevel_element_code_ojpavailabilityrequest_code">The toplevel element <code>OJPAvailabilityRequest</code></a></li>
+<li><a href="#_the_complex_type_code_ojpavailabilityrequeststructure_code">The complex type <code>OJPAvailabilityRequestStructure</code></a></li>
+<li><a href="#_the_toplevel_element_code_ojpavailabilitydelivery_code">The toplevel element <code>OJPAvailabilityDelivery</code></a></li>
+<li><a href="#_the_complex_type_code_ojpavailabilitydeliverystructure_code">The complex type <code>OJPAvailabilityDeliveryStructure</code></a></li>
 </ul>
 </li>
 <li><a href="#_ojp_ojp_requestsupport_xsd_supporting_definitions_for_ojp_service_requests_and_their_responses">OJP/OJP_RequestSupport.xsd - Supporting definitions for OJP service requests and their responses</a>
@@ -1251,6 +1255,66 @@ OJP Request - Groups individual functional responses.</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>MultiPointTripResponseGroup</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1:1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>siri:Extensions</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0:1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_the_toplevel_element_code_ojpavailabilityrequest_code">The toplevel element <code>OJPAvailabilityRequest</code></h3>
+<div class="paragraph">
+<p><code>OJPAvailabilityRequest</code> | <em>OJPAvailabilityRequestStructure</em> |</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_complex_type_code_ojpavailabilityrequeststructure_code">The complex type <code>OJPAvailabilityRequestStructure</code></h3>
+<div class="paragraph">
+<p>The element contains a <em>sequence</em> of the following elements:</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>AvailabilityRequestGroup</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1:1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>siri:Extensions</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0:1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_the_toplevel_element_code_ojpavailabilitydelivery_code">The toplevel element <code>OJPAvailabilityDelivery</code></h3>
+<div class="paragraph">
+<p><code>OJPAvailabilityDelivery</code> | <em>OJPAvailabilityDeliveryStructure</em> |</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_complex_type_code_ojpavailabilitydeliverystructure_code">The complex type <code>OJPAvailabilityDeliveryStructure</code></h3>
+<div class="paragraph">
+<p>The element contains a <em>sequence</em> of the following elements:</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>ServiceResponseContextGroup</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1:1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>AvailabilityResponseGroup</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1:1</p></td>
 </tr>
 <tr>
